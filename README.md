@@ -145,6 +145,8 @@ Protected Route: /secure-data
   4. Under the **Your Apps** section, locate your app and copy the Firebase configuration object.
   5. Use this configuration to create the `firebase.init.js` file in the `client/src/firebase` directory.
 
+Note: remember to add `export default app;` at the bottom file so you can import and use this configuration in other files.
+
 ## Dependencies
 
 ### Backend
