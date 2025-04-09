@@ -24,6 +24,7 @@ index.js
 middleware/
 auth.js
 package.json
+
 client/
 .gitignore
 eslint.config.js
@@ -116,7 +117,7 @@ The app will run on http://localhost:5173.
 Protected Route: /secure-data
 
 - Method: GET
-- Headers: Requires an Authorization header with a valid Firebase ID token. Example: "Authorization: Bearer <token>"
+- Headers: Requires an Authorization header with a valid Firebase ID token. Example: "Authorization: Bearer {token}"
 - Response: Returns secure data and user information.
 
 ## Security Notes
